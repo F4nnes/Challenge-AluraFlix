@@ -1,11 +1,12 @@
 .footer {
     background-color: #262626;
-    width: auto;
+    width: 1440px;
     height: 125px;
     border-top: 5px solid #2271D1;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .footer_logo {

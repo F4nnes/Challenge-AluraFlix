@@ -1,0 +1,22 @@
+.campo{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.campo label {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    padding: 20px 0;
+}
+
+.campo input {
+    width: 100%;
+    background-color: #191919;
+    border-color: none;
+    border-radius: 10px;
+    padding: 20px 10px;
+    outline-color: #A5A5A5;
+
+}

@@ -1,19 +1,23 @@
 
 import './App.css';
-import Header from './Componentes/Header/Header';
-import Banner from './Componentes/Banner/Banner';
-import Footer from './Componentes/Footer/Footer';
-import AgregarTarjeta from './Componentes/AgregarTarjeta/Tarjeta';
+import Home from "./pages/Home"
+import NuevoVideo from "./pages/NuevoVideo"
+import Header from "./Componentes/Header/Header.js"
+import Footer from "./Componentes/Footer/Footer.js"
+
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Header />
-      <Banner />
-      <AgregarTarjeta />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/nuevoVideo" element={<NuevoVideo />} />
+      </Routes>
       <Footer />
-      
-    </div>
+    </Router>
   );
 }
 
