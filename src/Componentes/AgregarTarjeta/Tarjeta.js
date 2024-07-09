@@ -13,9 +13,9 @@ function AgregarTarjeta() {
             <form className="titulo_formulario" >
                 <h5 className="titulo_tarjeta">Crear Tarjeta</h5>
 
-                <Campo titulo="Título" placerholder="título del video" />
-                <Campo titulo="Imagen" placerholder="link de la imagen" />
-                <Campo titulo="Video"  placerholder="link del video"    />
+                <Campo titulo="Título" placeholder="título del video" />
+                <Campo titulo="Imagen" placeholder="link de la imagen" />
+                <Campo titulo="Video"  placeholder="link del video"    />
 
                 <div className="botones">
                     <button className="guardar">Guardar</button>
