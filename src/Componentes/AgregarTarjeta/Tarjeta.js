@@ -2,7 +2,8 @@ import "./Tarjeta.css"
 import Campo from "../CamposFormulario/Campo.js"
 import ListaOpciones from "../ListaOpciones/ListaOpciones.js"
 import AreaTexto from "../AreaDeTexto/AreaTexto.js"
-
+import Boton from "../Boton/Boton.js"
+import BotonL from "../BotonLimpiar/BotonL.js"
 
 function AgregarTarjeta() {
     return <main className="container_newvid">
@@ -24,8 +25,9 @@ function AgregarTarjeta() {
                 </div>
 
                 <div className="botones">
-                    <button className="guardar">Guardar</button>
-                    <button className="limpiar">Limpiar</button>
+                    <Boton />
+                    <BotonL />
+                    
                 </div>
 
             </form>

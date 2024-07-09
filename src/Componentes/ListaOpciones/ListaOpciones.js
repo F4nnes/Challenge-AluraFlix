@@ -1,12 +1,19 @@
 import "./ListaOpciones.css"
 
 const ListaOpciones =()=>{
+
+    const categorias =[
+        "Front End",
+        "Back End",
+        "Innovación y Gestión"
+    ]
+
     return <div className="lista-opciones">
         <label>Categorias</label>
         <select>
-            <option>Front End</option>
-            <option>Back End</option>
-            <option>Innovación y Gestión</option>
+            {categorias.map((categoria, index)=>{
+                return <option key={index} >{categoria}</option>
+            })}
 
         </select>
     </div>

@@ -1,0 +1,16 @@
+.guardar{
+    font-family: "Source Sans Pro" sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #191919;
+    border: 3px solid #2271D1;
+    border-radius: 10px;
+    width: 180.12px;
+    height: 54px;
+    
+}
+
+.guardar:hover{
+    color: #2271D1;
+}
