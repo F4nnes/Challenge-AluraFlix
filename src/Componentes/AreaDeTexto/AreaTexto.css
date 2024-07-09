@@ -1,8 +1,10 @@
-.campo{
-    margin: 10px;
+
+.area_texto{
+    display: flex;
+    flex-direction: column;
 }
 
-.campo label {
+.area_texto label {
     font-family: "Source Sans 3", sans-serif;
     font-size: 25px;
     font-weight: 600;
@@ -11,12 +13,12 @@
     padding: 20px 0;
 }
 
-.campo input {
+.area_texto textarea {
     font-family: "Source Sans 3", sans-serif;
     font-size: 20px;
     font-weight: 500;
-    width:550px;
-    height: 42px;
+    width: 500px;
+    height: 220px;
     background-color: #191919;
     border-color: none;
     border-radius: 10px;

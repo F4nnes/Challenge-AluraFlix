@@ -2,11 +2,11 @@
 import "./Banner.css"
 
 
-function Banner() {
+const Banner = () => {
     return <section className="banner-container">
-        
 
-        <img className="banner_fondo"  src="./Imagenes/Banner.png" alt="Banner" />
+
+        <img className="banner_fondo" src="./Imagenes/Banner.png" alt="Banner" />
 
 
 

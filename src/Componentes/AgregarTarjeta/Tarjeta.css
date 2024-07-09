@@ -36,7 +36,6 @@
     flex-direction: column;
     width: 1172px;
     height: 867px;
-
 }
 
 .titulo_tarjeta{
@@ -52,6 +51,14 @@
     border-bottom-color: #262626;
     border-bottom-style: solid;
     padding: 20px;
+}
+
+.formatos{
+    display: flex;
+    /* flex-direction: column; */
+    flex-flow: column wrap;    
+    width: 1172px;
+    height: 600px;
 }
 
 /*Formulario final*/
