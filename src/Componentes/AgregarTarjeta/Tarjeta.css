@@ -59,8 +59,9 @@
 /*Inicio de botones*/
 .botones{
     display: flex;
-    gap: 30px;
-    padding-top: 60px;
+    gap: 45px;
+    padding: 30px 0;
+    
 }
 
 .guardar{

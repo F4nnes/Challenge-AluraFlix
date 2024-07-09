@@ -1,5 +1,6 @@
 import "./Tarjeta.css"
 import Campo from "../CamposFormulario/Campo.js"
+import ListaOpciones from "../ListaOpciones/ListaOpciones.js"
 
 
 function AgregarTarjeta() {
@@ -16,6 +17,7 @@ function AgregarTarjeta() {
                 <Campo titulo="Título" placeholder="título del video" />
                 <Campo titulo="Imagen" placeholder="link de la imagen" />
                 <Campo titulo="Video"  placeholder="link del video"    />
+                <ListaOpciones />
 
                 <div className="botones">
                     <button className="guardar">Guardar</button>
