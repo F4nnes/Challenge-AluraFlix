@@ -66,8 +66,10 @@
 /*Inicio de botones*/
 .botones{
     display: flex;
-    gap: 45px;
-    padding: 30px 0;
+    /* justify-content: center; */
+    gap: 55px;
+    /* padding: 40px 0; */
+    margin-top: 50px;
     
 }
 
