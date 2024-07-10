@@ -1,13 +1,19 @@
 
-import Banner from "../Componentes/Banner/Banner.js"
+import Banner from "../Componentes/Banner/Banner"
+import banner from "../assets/img/Banner.png"
+
 
 const Home = () => {
     return (
 
         <main className="container">
-            <Banner />
+
+            <Banner backgroundImage={banner}>
+
+            </Banner>
+
         </main>
-        
+
     )
 }
 
