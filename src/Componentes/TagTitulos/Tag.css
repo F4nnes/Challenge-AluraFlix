@@ -1,0 +1,15 @@
+
+
+.tag{
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    background-color: #6BD1FF;
+    width: 432px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

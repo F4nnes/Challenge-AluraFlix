@@ -1,6 +1,7 @@
 
 import Banner from "../Componentes/Banner/Banner"
-import banner from "../assets/img/Banner.png"
+import banner from "../assets/img/BannerCambio.png"
+
 
 
 const Home = () => {
@@ -8,9 +9,8 @@ const Home = () => {
 
         <main className="container">
 
-            <Banner backgroundImage={banner}>
-
-            </Banner>
+            <Banner backgroundImage={banner}></Banner>
+            
 
         </main>
 
