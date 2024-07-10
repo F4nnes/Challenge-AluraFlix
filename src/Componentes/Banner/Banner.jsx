@@ -16,12 +16,11 @@ const FigureEstilizada = styled.figure`
 
 
 const Banner = ({ backgroundImage }) => {
-    return (
-        <FigureEstilizada $backgroundImage={backgroundImage}>
-          <CardBanner/>
-            
-        </FigureEstilizada>
-    );
+  return (
+    <FigureEstilizada $backgroundImage={backgroundImage}>
+      <CardBanner />
+    </FigureEstilizada>
+  );
 };
 
 export default Banner;
