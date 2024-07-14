@@ -1,4 +1,5 @@
 
+import FrontTitulo from "../Titulos/Front"
 import "./CardBanner.css"
 
 
@@ -6,7 +7,7 @@ const CardBanner =()=>{
     return <div className="card_banner">
 
         <div className="titulo">
-            FRONT END
+            <FrontTitulo/>
         </div>
 
         <h1>Challenge React</h1>

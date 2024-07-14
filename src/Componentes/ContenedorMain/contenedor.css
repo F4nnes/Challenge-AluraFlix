@@ -1,0 +1,11 @@
+
+
+.main{
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1300px;
+    height: auto;
+    gap: 30px;
+}

@@ -12,13 +12,13 @@
 }
 
 .titulo{
-    width: 296.82px;
+    /* width: 296.82px;
     height: 92px;
     background-color: #6BD1FF;
     font-family: "Roboto", sans-serif;
     border-radius: 15px;
     font-size: 48px;
-    font-weight: 600;
+    font-weight: 600; */
     display: flex;
     justify-content: center;
     align-items: center;

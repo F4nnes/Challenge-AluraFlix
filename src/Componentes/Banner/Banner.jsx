@@ -12,6 +12,7 @@ const FigureEstilizada = styled.figure`
   margin: 0;
   max-width: 100%;
   background-size: cover;
+  border-bottom: 5px solid #2271D1;
 `;
 
 
