@@ -1,0 +1,35 @@
+
+
+.container{
+    width: 430px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.video{
+    display: flex;
+   flex-direction: column;
+}
+
+.borrar{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.editar{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
