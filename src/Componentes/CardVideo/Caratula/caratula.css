@@ -1,0 +1,12 @@
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    height: 260px;
+    border: 5px solid #6BD1FF;
+    box-sizing: border-box;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}

@@ -5,7 +5,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 1300px;
+    width: 1400px;
     height: auto;
     gap: 30px;
+    
+}
+
+.lineaItems{
+    display: flex;
+    flex-flow: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
 }
