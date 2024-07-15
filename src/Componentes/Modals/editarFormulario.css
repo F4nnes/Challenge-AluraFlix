@@ -11,6 +11,12 @@
     box-sizing: border-box;
 }
 
+.cross{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
 .titulo_editar {
     font-family: "Roboto", sans-serif;
     display: flex;
