@@ -1,65 +1,67 @@
-[
-    {
-        "id": 1,
-        "titulo": "¿Cuando usar let, var y const?",
-        "descripcion": "En este video se explica cuando usar let, var y const",
-        "imagen": "/Imagenes/CuandoVar.png",
-        "video": "https://youtu.be/PztCEdIJITY?si=XNHBCZ-WlTZZCVVm"
-    },
-    {
-        "id": 2,
-        "titulo": "¿Que es Javascript?",
-        "descripcion": "En este video se explica sobre javascript",
-        "imagen": "/Imagenes/Javascript.png",
-        "video": "https://youtu.be/GJfOSoaXk4s?si=P8jD  y9GoXm8ksCvO"
-    },
-    {
-        "id": 3,
-        "titulo": "Equipo Front End",
-        "descripcion": "En este video se habla sobre el equipo Front End",
-        "imagen": "/Imagenes/EquipoFront.png",
-        "video": "https://youtu.be/rpvrLaBQwgg?si=3rIVnQp9lvtx8JgH"
-    },
-    {
-        "id": 4,
-        "titulo": "Spring Framework",
-        "descripcion": "En este video se habla sobre el spring framework",
-        "imagen": "/Imagenes/Spring.png",
-        "video": "https://youtu.be/t-iqt1b2qqk?si=1EGLziOJ3q8nc3ly"
-    },
-    {
-        "id": 5,
-        "titulo": "¿Qué es el SQL y el NOSQL?",
-        "descripcion": "En este video se explica la diferencia en SQL",
-        "imagen": "/Imagenes/Sql.png",
-        "video": "https://youtu.be/cLLKVd5CNLc?si=GyqcE2htwFEHuYdX"
-    },
-    {
-        "id": 6,
-        "titulo": "Conoce los ENUM",
-        "descripcion": "En este video se explica sobre los ENUM en java",
-        "imagen": "/Imagenes/Enum.png",
-        "video": "https://youtu.be/EoPvlE85XAQ?si=xpO5KusY9XUkaBHD"
-    },
-    {
-        "id": 7,
-        "titulo": "¿Qué son las softskills?",
-        "descripcion": "En este video se explica sobre las softskills",
-        "imagen": "/Imagenes/Softskills.png",
-        "video": "https://youtu.be/vhwspfvI52k?si=JXIeplazliTufvoO"
-    },
-    {
-        "id": 8,
-        "titulo": "Las 7 softskills mas deseadas",
-        "descripcion": "En este video se explica cuales son las softskills mas importantes",
-        "imagen": "/Imagenes/SoftskillsDeseadas.png",
-        "video": "https://youtu.be/YhR7Zp8NUzE?si=Auk2ANjv9XL5wZbM"
-    },
-    {
-        "id": 9,
-        "titulo": "¿Metodologías ágiles?",
-        "descripcion": "En este video se explica que son las metodoloías ágiles",
-        "imagen": "/Imagenes/Metodologias.png",
-        "video": "https://youtu.be/6N3OkLCfK-0?si=kIJUCbF_plOKAKLP"
-    }
-]
+{
+    "videos": [
+        {
+            "id": 1,
+            "titulo": "¿Cuando usar let, var y const?",
+            "descripcion": "En este video se explica cuando usar let, var y const",
+            "imagen": "/Imagenes/CuandoVar.png",
+            "video": "https://youtu.be/PztCEdIJITY?si=XNHBCZ-WlTZZCVVm"
+        },
+        {
+            "id": 2,
+            "titulo": "¿Que es Javascript?",
+            "descripcion": "En este video se explica sobre javascript",
+            "imagen": "/Imagenes/Javascript.png",
+            "video": "https://youtu.be/GJfOSoaXk4s?si=P8jD  y9GoXm8ksCvO"
+        },
+        {
+            "id": 3,
+            "titulo": "Equipo Front End",
+            "descripcion": "En este video se habla sobre el equipo Front End",
+            "imagen": "/Imagenes/EquipoFront.png",
+            "video": "https://youtu.be/rpvrLaBQwgg?si=3rIVnQp9lvtx8JgH"
+        },
+        {
+            "id": 4,
+            "titulo": "Spring Framework",
+            "descripcion": "En este video se habla sobre el spring framework",
+            "imagen": "/Imagenes/Spring.png",
+            "video": "https://youtu.be/t-iqt1b2qqk?si=1EGLziOJ3q8nc3ly"
+        },
+        {
+            "id": 5,
+            "titulo": "¿Qué es el SQL y el NOSQL?",
+            "descripcion": "En este video se explica la diferencia en SQL",
+            "imagen": "/Imagenes/Sql.png",
+            "video": "https://youtu.be/cLLKVd5CNLc?si=GyqcE2htwFEHuYdX"
+        },
+        {
+            "id": 6,
+            "titulo": "Conoce los ENUM",
+            "descripcion": "En este video se explica sobre los ENUM en java",
+            "imagen": "/Imagenes/Enum.png",
+            "video": "https://youtu.be/EoPvlE85XAQ?si=xpO5KusY9XUkaBHD"
+        },
+        {
+            "id": 7,
+            "titulo": "¿Qué son las softskills?",
+            "descripcion": "En este video se explica sobre las softskills",
+            "imagen": "/Imagenes/Softskills.png",
+            "video": "https://youtu.be/vhwspfvI52k?si=JXIeplazliTufvoO"
+        },
+        {
+            "id": 8,
+            "titulo": "Las 7 softskills mas deseadas",
+            "descripcion": "En este video se explica cuales son las softskills mas importantes",
+            "imagen": "/Imagenes/SoftskillsDeseadas.png",
+            "video": "https://youtu.be/YhR7Zp8NUzE?si=Auk2ANjv9XL5wZbM"
+        },
+        {
+            "id": 9,
+            "titulo": "¿Metodologías ágiles?",
+            "descripcion": "En este video se explica que son las metodoloías ágiles",
+            "imagen": "/Imagenes/Metodologias.png",
+            "video": "https://youtu.be/6N3OkLCfK-0?si=kIJUCbF_plOKAKLP"
+        }
+    ]
+}
