@@ -20,7 +20,7 @@ function EditarFormulario() {
                     <AreaTexto titulo="Descripción" placeholder="Agregar nueva descripción"/>
                 </div>
 
-                <div>
+                <div className="botons">
                     <Boton />
                     <BotonL />
                 </div>

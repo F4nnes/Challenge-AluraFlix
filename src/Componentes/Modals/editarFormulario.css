@@ -8,6 +8,7 @@
     border-radius: 20px;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .titulo_editar {
@@ -16,4 +17,10 @@
     justify-content: center;
     font-size: 60px;
     margin: 0;
+}
+
+.botons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
 }
