@@ -12,7 +12,7 @@ const Home = () => {
         <main className="containerHome">
             <Banner backgroundImage={banner}></Banner>
             <ContenedorMain/>
-            <EditarFormulario/>
+            {/* <EditarFormulario/> */}
         </main>
 
     )
