@@ -1,5 +1,10 @@
-/* .video_banner{
+.video_banner{
     display: flex;
-    border: 5px solid #6BD1FF;
-    box-sizing: border-box;
-} */
+    align-items: center;
+    justify-content: center;
+    width: 640px;
+    height: 360px; 
+    border-radius: 20px;
+    border:5px solid #6BD1FF;
+}
+

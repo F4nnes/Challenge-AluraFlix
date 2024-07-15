@@ -7,7 +7,6 @@ function Caratula() {
         <img className="perfil" src="./Imagenes/CuandoVar.png" alt="Uso de variables" />
     </a>
 
-
 }
 
 
