@@ -1,7 +1,7 @@
 
 import Banner from "../Componentes/Banner/Banner"
 import ContenedorMain from "../Componentes/ContenedorMain"
-import EditarFormulario from "../Componentes/Modals"
+import ModalZoom from "../Componentes/ModalZoom"
 import banner from "../assets/img/BannerCambio.png"
 import "./home.css"
 
@@ -12,7 +12,8 @@ const Home = () => {
         <main className="containerHome">
             <Banner backgroundImage={banner}></Banner>
             <ContenedorMain/>
-            {/* <EditarFormulario/> */}
+            <ModalZoom/>
+            
         </main>
 
     )

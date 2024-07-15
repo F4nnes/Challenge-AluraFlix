@@ -6,7 +6,7 @@ import ListaOpciones from "../ListaOpciones/ListaOpciones";
 import "./editarFormulario.css"
 
 function EditarFormulario() {
-    return <dialog className="editar_formato">
+    return <section className="editar_formato" open={true} >
 
         <section>
             <div className="cross">
@@ -14,7 +14,7 @@ function EditarFormulario() {
             </div>
             <h1 className="titulo_editar">Editar Card</h1>
 
-            <form>
+            <form >
                 <div>
                     <Campo titulo="Título" placeholder="Título nuevo" />
                     <ListaOpciones />
@@ -35,7 +35,7 @@ function EditarFormulario() {
 
 
 
-    </dialog>
+    </section>
 }
 
 export default EditarFormulario

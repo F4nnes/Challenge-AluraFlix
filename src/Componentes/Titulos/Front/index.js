@@ -1,10 +1,10 @@
 
 import "./Front.css"
 
-const FrontTitulo = (props)=>{
+const FrontTitulo = ()=>{
 
 
-    return <div className="front">{props.titulo}</div>
+    return <div className="front">Front End</div>
 }
 
 export default FrontTitulo
