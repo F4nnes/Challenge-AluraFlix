@@ -1,10 +1,8 @@
 
 import "./Innovacion.css"
 
-const InnovaTitulo = () => {
-    return <div className="innova">
-        Innovación y Gestión
-    </div>
+const InnovaTitulo = (props) => {
+    return <div className="innova">{props.titulo}</div>
 }
 
 export default InnovaTitulo

@@ -17,11 +17,11 @@ function AgregarTarjeta() {
                 <h5 className="titulo_tarjeta">Crear Tarjeta</h5>
 
                 <div className="formatos">
-                    <Campo titulo="Título" placeholder="título del video" required />
-                    <Campo titulo="Imagen" placeholder="link de la imagen" required />
-                    <Campo titulo="Video" placeholder="link del video" required />
-                    <ListaOpciones required/>
-                    <AreaTexto titulo="Descripción" placeholder="¿De qué se trata este video?"  required />
+                    <Campo titulo="Título" placeholder="título del video" required/>
+                    <Campo titulo="Imagen" placeholder="link de la imagen" required/>
+                    <Campo titulo="Video" placeholder="link del video" required/>
+                    <ListaOpciones />
+                    <AreaTexto titulo="Descripción" placeholder="¿De qué se trata este video?" required/>
                 </div>
 
                 <div className="botones">

@@ -1,12 +1,10 @@
 
 import "./Back.css"
 
-const BackTitulo = ()=>{
+const BackTitulo = (props)=>{
     
     
-    return <div className="back" >
-        Back End
-    </div>
+    return <div className="back" >{props.titulo}</div>
 }
 
 export default BackTitulo

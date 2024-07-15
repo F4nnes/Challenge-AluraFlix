@@ -7,7 +7,7 @@ const AreaTexto = (props) => {
 
     return <div className="area_texto">
         <label>{props.titulo}</label>
-        <textarea placeholder={placeholderModificado}/>
+        <textarea placeholder={placeholderModificado} required={props.required}/>
     </div>
 
 }
